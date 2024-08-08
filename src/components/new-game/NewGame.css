@@ -1,0 +1,18 @@
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  button{
+    border: 0 transparent;
+    background-color: rgb(3, 3, 3);
+    color: rgb(248, 246, 246);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  button:hover{
+    background-color: var(--tile);
+  }
